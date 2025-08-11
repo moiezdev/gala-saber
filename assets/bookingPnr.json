@@ -1,0 +1,204 @@
+{
+    "control_number": "KR55YM",
+    "fare_type": "RU",
+    "status": "Confirmed",
+    "fare_amount": "585.00",
+    "total_amount": "1,573.64",
+    "tax_amount": "988.64",
+    "currency": "CAD",
+    "user_id": 28,
+    "updated_at": "2020-11-29 14:40:36",
+    "created_at": "2020-11-29 14:40:36",
+    "id": 35,
+    "booked_contact": {
+        "id": 57,
+        "booking_type": "booking",
+        "booking_id": "35",
+        "email": "jahanzaib@dispostable.com",
+        "mobile_number": "12345",
+        "created_at": "2020-11-29 14:40:36",
+        "updated_at": "2020-11-29 14:40:36"
+    },
+    "booked_flights": [
+        {
+            "id": 67,
+            "booking_id": "35",
+            "origin": {
+                "date": "2021-07-15",
+                "time": "20:15",
+                "location": "YYZ",
+                "terminal": "1"
+            },
+            "destination": {
+                "date": "2021-07-17",
+                "time": "01:40",
+                "location": "LHE",
+                "terminal": "M"
+            },
+            "airline": "AC",
+            "equipment": "789",
+            "flight_number": "58",
+            "cabin": "Economy",
+            "class": "S",
+            "duration": "29H 25M",
+            "number_of_stops": "1",
+            "baggage": "2PC",
+            "created_at": "2020-11-29 14:40:36",
+            "updated_at": "2020-11-29 14:40:36",
+            "origin_airport_detail": {
+                "iata": "YYZ",
+                "city": "Toronto",
+                "country": "Canada"
+            },
+            "destination_airport_detail": {
+                "iata": "LHE",
+                "city": "Lahore",
+                "country": "Pakistan"
+            },
+            "booked_segments": [
+                {
+                    "id": 129,
+                    "booked_flight_id": "67",
+                    "origin": {
+                        "date": "2021-07-15",
+                        "time": "20:15",
+                        "location": "YYZ",
+                        "terminal": "1"
+                    },
+                    "destination": {
+                        "date": "2021-07-16",
+                        "time": "16:00",
+                        "location": "DOH"
+                    },
+                    "airline": "AC",
+                    "equipment": "789",
+                    "flight_number": "58",
+                    "cabin": "Economy",
+                    "class": "S",
+                    "duration": "19H 45M",
+                    "stop_duration": "00H 00M",
+                    "number_of_stops": "0",
+                    "baggage": "2PC",
+                    "created_at": "2020-11-29 14:40:36",
+                    "updated_at": "2020-11-29 14:40:36",
+                    "origin_airport_detail": {
+                        "iata": "YYZ",
+                        "city": "Toronto",
+                        "country": "Canada"
+                    },
+                    "destination_airport_detail": {
+                        "iata": "DOH",
+                        "city": "Doha",
+                        "country": "Qatar"
+                    },
+                    "airline_detail": {
+                        "id": 330,
+                        "name": "Air Canada",
+                        "iata": "AC",
+                        "icao": "ACA",
+                        "country": "Canada",
+                        "active": "Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "booking_id": "35",
+            "origin": {
+                "date": "2021-08-31",
+                "time": "09:40",
+                "location": "LHE"
+            },
+            "destination": {
+                "date": "2021-09-01",
+                "time": "14:50",
+                "location": "YYZ",
+                "terminal": "1"
+            },
+            "airline": "WY",
+            "equipment": "332",
+            "flight_number": "342",
+            "cabin": "Economy",
+            "class": "T",
+            "duration": "29H 10M",
+            "number_of_stops": "2",
+            "baggage": "2PC",
+            "created_at": "2020-11-29 14:40:36",
+            "updated_at": "2020-11-29 14:40:36",
+            "origin_airport_detail": {
+                "iata": "LHE",
+                "city": "Lahore",
+                "country": "Pakistan"
+            },
+            "destination_airport_detail": {
+                "iata": "YYZ",
+                "city": "Toronto",
+                "country": "Canada"
+            },
+            "booked_segments": [
+                {
+                    "id": 131,
+                    "booked_flight_id": "68",
+                    "origin": {
+                        "date": "2021-08-31",
+                        "time": "09:40",
+                        "location": "LHE"
+                    },
+                    "destination": {
+                        "date": "2021-08-31",
+                        "time": "11:45",
+                        "location": "MCT"
+                    },
+                    "airline": "WY",
+                    "equipment": "332",
+                    "flight_number": "342",
+                    "cabin": "Economy",
+                    "class": "T",
+                    "duration": "02H 05M",
+                    "stop_duration": "00H 00M",
+                    "number_of_stops": "0",
+                    "baggage": "2PC",
+                    "created_at": "2020-11-29 14:40:37",
+                    "updated_at": "2020-11-29 14:40:37",
+                    "origin_airport_detail": {
+                        "iata": "LHE",
+                        "city": "Lahore",
+                        "country": "Pakistan"
+                    },
+                    "destination_airport_detail": {
+                        "iata": "MCT",
+                        "city": "Muscat",
+                        "country": "Oman"
+                    },
+                    "airline_detail": {
+                        "id": 3778,
+                        "name": "Oman Air",
+                        "iata": "WY",
+                        "icao": "OMA",
+                        "country": "Oman",
+                        "active": "Y"
+                    }
+                }
+            ]
+        }
+    ],
+    "booked_travellers": [
+        {
+            "id": 40,
+            "booking_id": "35",
+            "type": "Adult",
+            "gender": "Male",
+            "title": "Mr",
+            "first_name": "Jahanzaib",
+            "last_name": "Rana",
+            "date_of_birth": "1996-04-20",
+            "currency": "CAD",
+            "fare_amount": "585.00",
+            "tax_amount": "988.64",
+            "total_amount": "1573.64",
+            "created_at": "2020-11-29 14:40:36",
+            "updated_at": "2020-11-29 14:40:36"
+        }
+    ]
+}
